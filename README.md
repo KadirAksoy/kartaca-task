@@ -19,4 +19,8 @@ npm install && npm run dev
 
 <span>Random deprem yaratma</span>
 
+![random-deprem-yarat](https://github.com/KadirAksoy/kartaca-task/assets/90133005/821dde1f-3729-4b72-aed6-fdd343c6d63e)
+![random-deprem-yarat-2](https://github.com/KadirAksoy/kartaca-task/assets/90133005/c0a22f92-5a60-4d6a-a30f-58e8746bbb92)
+
+
 
