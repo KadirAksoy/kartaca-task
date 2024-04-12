@@ -12,8 +12,8 @@ npm install && npm run dev
 ```
 
 # Görseller 
+><span>Deprem yaratma</span>
 <span>Deprem yaratma</span>
-
 ![deprem-yarat](https://github.com/KadirAksoy/kartaca-task/assets/90133005/07080118-10ca-4ee4-9211-a671452f187f)
 ![deprem-yarat-2](https://github.com/KadirAksoy/kartaca-task/assets/90133005/7c0ec7dc-dc0d-438c-a59a-e5cb074bac0e)
 
