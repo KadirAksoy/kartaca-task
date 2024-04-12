@@ -6,4 +6,6 @@
 
 # Frontend
 
-**mvn clean install && docker-compose up -d**
+```
+mvn clean install && docker-compose up -d
+```
