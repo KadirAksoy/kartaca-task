@@ -1,28 +1,26 @@
 ## Kartaca Çekirdekten Yetişenler Programı Yazılım Geliştirme Projesi
 
-
 # Açıklama 
-<span>Projeyi yaparken Apache Flink kullanılması gerekiyordu maalesef flink kullanarak bu projeyi yapamadım dökümanları ve youtube'ı kaynak olarak kullandım fakat yinede istenilen görevi yapamadım. Projeyi normalde teslim etmeyecektim fakat Linkedinde proje bitmemiş olsa bile gönderebilirsiniz şeklinde bir gönderi gördüm bu yüzden göndermek istedim. Projede Apache Kafka ile kuyruklama sistemi kullandım. </span>
+Projeyi yaparken Apache Flink kullanılması gerekiyordu, ancak maalesef Flink kullanarak bu projeyi tamamlayamadım. Dökümanlar ve YouTube videolarını kaynak olarak kullandım, fakat yine de istenilen görevi yapamadım. Projeyi normalde teslim etmeyecektim, ancak LinkedIn'de "Proje bitmemiş olsa bile gönderebilirsiniz" şeklinde bir gönderi gördüm, bu yüzden göndermek istedim. Projede Apache Kafka ile kuyruklama sistemi kullandım.
 
 # Frontend
 
->Frontend klasörünün içindeki map-app dosyası içerisine girerek aşağıdaki kodları çalıştırarak uygulamanın arayüzüne ulaşabilir.
-```
-npm install && npm run dev
-```
+Projeye erişmek için `frontend` klasöründeki `map-app` dosyasına girerek aşağıdaki komutları çalıştırabilirsiniz:
+
 
 # Görseller 
->Şiddeti 7 ve 7 den büyük depremler ekranda 7 saniye işaretlenmiş olarak kalıyor.
+Şiddeti 7 ve 7'den büyük depremler ekranda 7 saniye boyunca işaretlenir.
 
-<span>Deprem yaratma: lat,lon,şiddet bilgilerini giriyoruz ardından deprem yaratma tuşuna basarak backend servisimize istek atıp deprem verisini kaydetmiş oluyoruz.</span>
-![deprem-yarat](https://github.com/KadirAksoy/kartaca-task/assets/90133005/07080118-10ca-4ee4-9211-a671452f187f)
-![deprem-yarat-2](https://github.com/KadirAksoy/kartaca-task/assets/90133005/7c0ec7dc-dc0d-438c-a59a-e5cb074bac0e)
+Deprem yaratma: Latitude, longitude ve şiddet bilgilerini girerek deprem yaratma tuşuna basarak backend servisimize istek atabiliriz ve deprem verisini kaydedebiliriz.
 
+![Deprem yaratma](https://github.com/KadirAksoy/kartaca-task/blob/main/assets/90133005/07080118-10ca-4ee4-9211-a671452f187f.png)
+![Deprem yaratma 2](https://github.com/KadirAksoy/kartaca-task/blob/main/assets/90133005/7c0ec7dc-dc0d-438c-a59a-e5cb074bac0e.png)
 
-<span>Random deprem yaratma: Random deprem başlat butonuna basarak her 0.5 saniyede bir rastgele lat,lon,şiddet oluşturarak deprem verisini kaydediyor. Tekrardan butona basarsak ise random deprem oluşturmayı bırakıyor.</span>
+Random deprem yaratma: Her 0.5 saniyede bir rastgele latitude, longitude ve şiddet oluşturarak deprem verisini kaydedebiliriz. Tekrar başlat butonuna basarak random deprem oluşturmayı durdurabiliriz.
 
-![random-deprem-yarat](https://github.com/KadirAksoy/kartaca-task/assets/90133005/821dde1f-3729-4b72-aed6-fdd343c6d63e)
-![random-deprem-yarat-2](https://github.com/KadirAksoy/kartaca-task/assets/90133005/c0a22f92-5a60-4d6a-a30f-58e8746bbb92)
+![Random deprem yaratma](https://github.com/KadirAksoy/kartaca-task/blob/main/assets/90133005/821dde1f-3729-4b72-aed6-fdd343c6d63e.png)
+![Random deprem yaratma 2](https://github.com/KadirAksoy/kartaca-task/blob/main/assets/90133005/c0a22f92-5a60-4d6a-a30f-58e8746bbb92.png)
+
 
 
 
