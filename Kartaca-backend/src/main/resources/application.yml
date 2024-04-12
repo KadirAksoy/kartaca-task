@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/kartacadb
+    url: jdbc:postgresql://localhost:5432/kartacadb  # localhost yerine postgresqldb yazılmalı
     username: admin
     password: 1234
   jpa:
@@ -12,6 +12,6 @@ spring:
       ddl-auto: update
 
 kafka:
-  brokers: localhost:59092
+  brokers: localhost:59092   # kafka:9092 şeklinde değiştirilmeli
 server:
   port: 8080
