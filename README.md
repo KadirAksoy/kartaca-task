@@ -13,7 +13,9 @@ npm install && npm run dev
 
 # Görseller 
 <span>Deprem yaratma</span>
-![deprem-yarat](https://github.com/KadirAksoy/SpringBoot-Docker-Example/assets/90133005/4256721f-214e-4918-9619-4af5871bcdd8)
-![deprem-yarat-2](https://github.com/KadirAksoy/SpringBoot-Docker-Example/assets/90133005/76f3d25b-32c9-4e94-89d5-e9ecd2ceec97)
+
+![deprem-yarat](https://github.com/KadirAksoy/kartaca-task/assets/90133005/07080118-10ca-4ee4-9211-a671452f187f)
+![deprem-yarat-2](https://github.com/KadirAksoy/kartaca-task/assets/90133005/7c0ec7dc-dc0d-438c-a59a-e5cb074bac0e)
+
 
 
