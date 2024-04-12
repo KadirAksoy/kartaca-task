@@ -24,20 +24,39 @@ npm install && npm run dev
 ![random-deprem-yarat](https://github.com/KadirAksoy/kartaca-task/assets/90133005/821dde1f-3729-4b72-aed6-fdd343c6d63e)
 ![random-deprem-yarat-2](https://github.com/KadirAksoy/kartaca-task/assets/90133005/c0a22f92-5a60-4d6a-a30f-58e8746bbb92)
 
-# Backend
 
->Kartaca-backend klasörü içine girerek aşağıdaki kodları çalıştırarak uygulamanın backend tarafı çalıştırılabilir. Kodların içindeki application.yml dosyasındaki database bağımlılıkları değiştirilmelidir. Scriptler servis metodları şeklinde yapıldı.
-<span>localhost:8080/api/script/randomScript    bu şekilde randomScript metoduna get isteği atılarak random lat,lon,şiddet değeri oluşturuluyor.</span>
-<span>localhost:8080/api/script/sent            bu şekilde sentScript metoduna post isteği atılarak lat,lon,şiddet verisi ekleniyor.</span>
- json formatı : {
-    "lat": 49,
-    "lon":21,
-    "intensity":2
-}
 
+# Kartaca-backend 
+
+Bu kılavuz, Kartaca-backend projesinin nasıl çalıştırılacağı ve servis metodlarının nasıl kullanılacağı hakkında bilgi vermektedir.
+
+## Backend'i Çalıştırma
+
+Kartaca-backend klasörüne gidin ve aşağıdaki komutları çalıştırarak uygulamanın backend tarafını başlatabilirsiniz. Öncelikle, `application.yml` dosyasındaki veritabanı bağımlılıklarını kendi ortamınıza uygun şekilde değiştirmeniz gerekmektedir.
 ```
 mvn clean install && docker-compose up -d
 ```
+
+
+## Servis Metodları
+
+Kartaca-backend uygulaması, aşağıdaki servis metodlarına sahiptir:
+
+### Random Script Oluşturma
+
+Random Script metodunu kullanarak, `localhost:8080/api/script/randomScript` adresine GET isteği göndererek rastgele bir latitude, longitude ve şiddet değeri oluşturabilirsiniz.
+
+### Script Gönderme
+
+Script gönderme metodunu kullanarak, `localhost:8080/api/script/sent` adresine POST isteği göndererek belirtilen latitude, longitude ve şiddet verilerini ekleyebilirsiniz. Veriyi JSON formatında göndermelisiniz. Örnek JSON yapısı aşağıdaki gibidir:
+
+```json
+{
+    "lat": 49,
+    "lon": 21,
+    "intensity": 2
+}
+
 # Görseller 
 >Deprem yaratma işlemi
 ![deprem-yarat-log](https://github.com/KadirAksoy/kartaca-task/assets/90133005/539209af-f618-46dd-889c-e4e3471a3e26)
