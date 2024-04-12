@@ -27,8 +27,8 @@ npm install && npm run dev
 # Backend
 
 >Kartaca-backend klasörü içine girerek aşağıdaki kodları çalıştırarak uygulamanın backend tarafı çalıştırılabilir. Kodların içindeki application.yml dosyasındaki database bağımlılıkları değiştirilmelidir. Scriptler servis metodları şeklinde yapıldı.
--localhost:8080/api/script/randomScript    bu şekilde randomScript metoduna get isteği atılarak random lat,lon,şiddet değeri oluşturuluyor.
--localhost:8080/api/script/sent            bu şekilde sentScript metoduna post isteği atılarak lat,lon,şiddet verisi ekleniyor.
+<span>localhost:8080/api/script/randomScript    bu şekilde randomScript metoduna get isteği atılarak random lat,lon,şiddet değeri oluşturuluyor.</span>
+<span>localhost:8080/api/script/sent            bu şekilde sentScript metoduna post isteği atılarak lat,lon,şiddet verisi ekleniyor.</span>
  json formatı : {
     "lat": 49,
     "lon":21,
