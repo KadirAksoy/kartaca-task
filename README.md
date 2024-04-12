@@ -6,6 +6,7 @@
 
 # Frontend
 
+>Frontend klasörünün içindeki map-app dosyası içerisine girerek aşağıdaki kodları çalıştırarak uygulamanın arayüzüne ulaşabilir.
 ```
-mvn clean install && docker-compose up -d
+npm install && npm run dev
 ```
