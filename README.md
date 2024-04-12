@@ -12,13 +12,14 @@ npm install && npm run dev
 ```
 
 # Görseller 
+>Şiddeti 7 ve 7 den büyük depremler ekranda 7 saniye işaretlenmiş olarak kalıyor.
 >Deprem yaratma
 <span>lat,lon,şiddet bilgilerini giriyoruz ardından deprem yaratma tuşuna basarak backend servisimize istek atıp deprem verisini kaydetmiş oluyoruz.</span>
 ![deprem-yarat](https://github.com/KadirAksoy/kartaca-task/assets/90133005/07080118-10ca-4ee4-9211-a671452f187f)
 ![deprem-yarat-2](https://github.com/KadirAksoy/kartaca-task/assets/90133005/7c0ec7dc-dc0d-438c-a59a-e5cb074bac0e)
 
 >Random deprem yaratma
-<span>Random deprem başlat butonuna basarak her 0.5 saniyede bir rastgele lat,lon,şiddet oluşturarak deprem verisini kaydediyor. Tekrardan butona basarsek ise random deprem oluşturmayı bırakıyor.</span>
+<span>Random deprem başlat butonuna basarak her 0.5 saniyede bir rastgele lat,lon,şiddet oluşturarak deprem verisini kaydediyor. Tekrardan butona basarsak ise random deprem oluşturmayı bırakıyor.</span>
 
 ![random-deprem-yarat](https://github.com/KadirAksoy/kartaca-task/assets/90133005/821dde1f-3729-4b72-aed6-fdd343c6d63e)
 ![random-deprem-yarat-2](https://github.com/KadirAksoy/kartaca-task/assets/90133005/c0a22f92-5a60-4d6a-a30f-58e8746bbb92)
