@@ -30,6 +30,13 @@ npm install && npm run dev
 ```
 mvn clean install && docker-compose up -d
 ```
+# Görseller 
+>Deprem yaratma işlemi
+![deprem-yarat-log](https://github.com/KadirAksoy/kartaca-task/assets/90133005/539209af-f618-46dd-889c-e4e3471a3e26)
+>Random deprem yaratma işlemi
+![random-deprem-yarat-log](https://github.com/KadirAksoy/kartaca-task/assets/90133005/5a6e35ba-ae40-4da6-9793-f7bc63d34c01)
+>Docker container 
+![docker-compose-yml](https://github.com/KadirAksoy/kartaca-task/assets/90133005/f783536c-cc67-4963-bb40-ad7febdb7eab)
 
 
 
