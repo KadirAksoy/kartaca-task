@@ -52,12 +52,14 @@ Script gönderme metodunu kullanarak, `localhost:8080/api/script/sent` adresine 
 
 ```json
 {
-    "lat": 49,
-    "lon": 21,
-    "intensity": 2
+    "lat": 5,
+    "lon": 5,
+    "intensity": 5
 }
+```
 
-# Görseller 
+# Görseller
+
 >Deprem yaratma işlemi
 ![deprem-yarat-log](https://github.com/KadirAksoy/kartaca-task/assets/90133005/539209af-f618-46dd-889c-e4e3471a3e26)
 >Random deprem yaratma işlemi
