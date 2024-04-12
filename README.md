@@ -6,6 +6,9 @@ Projeyi yaparken Apache Flink kullanılması gerekiyordu, ancak maalesef Flink k
 # Frontend
 
 Projeye erişmek için `frontend` klasöründeki `map-app` dosyasına girerek aşağıdaki komutları çalıştırabilirsiniz:
+```
+npm install && npm run dev
+```
 
 
 # Görseller 
@@ -13,8 +16,8 @@ Projeye erişmek için `frontend` klasöründeki `map-app` dosyasına girerek a�
 
 Deprem yaratma: Latitude, longitude ve şiddet bilgilerini girerek deprem yaratma tuşuna basarak backend servisimize istek atabiliriz ve deprem verisini kaydedebiliriz.
 
-![Deprem yaratma](https://github.com/KadirAksoy/kartaca-task/blob/main/assets/90133005/07080118-10ca-4ee4-9211-a671452f187f.png)
-![Deprem yaratma 2](https://github.com/KadirAksoy/kartaca-task/blob/main/assets/90133005/7c0ec7dc-dc0d-438c-a59a-e5cb074bac0e.png)
+![deprem-yarat](https://github.com/KadirAksoy/kartaca-task/assets/90133005/07080118-10ca-4ee4-9211-a671452f187f)
+![deprem-yarat-2](https://github.com/KadirAksoy/kartaca-task/assets/90133005/7c0ec7dc-dc0d-438c-a59a-e5cb074bac0e)
 
 Random deprem yaratma: Her 0.5 saniyede bir rastgele latitude, longitude ve şiddet oluşturarak deprem verisini kaydedebiliriz. Tekrar başlat butonuna basarak random deprem oluşturmayı durdurabiliriz.
 
