@@ -26,7 +26,15 @@ npm install && npm run dev
 
 # Backend
 
->Kartaca-backend klasörü içine girerek aşağıdaki kodları çalıştırarak uygulamanın backend tarafı çalıştırılabilir. Kodların içindeki application.yml dosyasındaki database bağımlılıkları değiştirilmelidir.
+>Kartaca-backend klasörü içine girerek aşağıdaki kodları çalıştırarak uygulamanın backend tarafı çalıştırılabilir. Kodların içindeki application.yml dosyasındaki database bağımlılıkları değiştirilmelidir. Scriptler servis metodları şeklinde yapıldı.
+>localhost:8080/api/script/randomScript    bu şekilde randomScript metoduna get isteği atılarak random lat,lon,şiddet değeri oluşturuluyor.
+>localhost:8080/api/script/sent            bu şekilde sentScript metoduna post isteği atılarak lat,lon,şiddet verisi ekleniyor.
+ json formatı : {
+    "lat": 49,
+    "lon":21,
+    "intensity":2
+}
+
 ```
 mvn clean install && docker-compose up -d
 ```
@@ -37,6 +45,7 @@ mvn clean install && docker-compose up -d
 ![random-deprem-yarat-log](https://github.com/KadirAksoy/kartaca-task/assets/90133005/5a6e35ba-ae40-4da6-9793-f7bc63d34c01)
 >Docker container 
 ![docker-compose-yml](https://github.com/KadirAksoy/kartaca-task/assets/90133005/f783536c-cc67-4963-bb40-ad7febdb7eab)
+
 
 
 
