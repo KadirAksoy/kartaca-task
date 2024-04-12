@@ -69,5 +69,11 @@ Script gönderme metodunu kullanarak, `localhost:8080/api/script/sent` adresine 
 ![docker-compose-yml](https://github.com/KadirAksoy/kartaca-task/assets/90133005/f783536c-cc67-4963-bb40-ad7febdb7eab)
 
 
+# Kafka
+http://localhost:9091/  adresine giderek kafka-ui eklentisi ile produce ve consume edilen verilerin takibini yapabilirsiniz.
+
+
+
+![kafka-3](https://github.com/KadirAksoy/kartaca-task/assets/90133005/357805d1-e0a1-4637-8d12-3adbf745289d)
 
 
