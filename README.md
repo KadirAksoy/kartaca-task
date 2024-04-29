@@ -10,7 +10,6 @@ Projeye erişmek için `frontend` klasöründeki `map-app` dosyasına girerek a�
 npm install && npm run dev
 ```
 
-
 # Görseller 
 Şiddeti 7 ve 7'den büyük depremler ekranda 7 saniye boyunca işaretlenir.
 
