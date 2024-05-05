@@ -12,6 +12,6 @@ spring:
       ddl-auto: update
 
 kafka:
-  brokers: localhost:59092   # kafka:9092 şeklinde değiştirilmeli
+  brokers: localhost:59092   
 server:
   port: 8080
