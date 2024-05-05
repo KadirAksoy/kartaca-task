@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/kartacadb  # localhost yerine postgresqldb yazılmalı
+    url: jdbc:postgresql://localhost:5432/kartacadb  
     username: admin
     password: 1234
   jpa:
