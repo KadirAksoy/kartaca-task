@@ -1,7 +1,6 @@
 ## Kartaca Çekirdekten Yetişenler Programı Yazılım Geliştirme Projesi
 
-# Açıklama 
-Projeyi yaparken Apache Flink kullanılması gerekiyordu, ancak maalesef Flink kullanarak bu projeyi tamamlayamadım. Dökümanlar ve YouTube videolarını kaynak olarak kullandım, fakat yine de istenilen görevi yapamadım. Projeyi normalde teslim etmeyecektim, ancak LinkedIn'de "Proje bitmemiş olsa bile gönderebilirsiniz" şeklinde bir gönderi gördüm, bu yüzden göndermek istedim. Projede Apache Kafka ile kuyruklama sistemi kullandım.
+
 
 # Frontend
 
